@@ -47,47 +47,58 @@
 				<form action="<?= base_url('agen/registrasi/tambahDataAksi'); ?>" method="POST">
 					<div class="row g-3">
 						<div class="col">
-							<input type="text" class="form-control" name="nama_agen" placeholder="Nama Agen">
+							<label for="nama_agen" class="form-label">Nama Agen</label>
+							<input type="text" class="form-control" name="nama_agen" id="nama_agen">
 							<?php echo form_error('nama_agen', '<div class="text-small text-danger"></div>'); ?>
 						</div>
 						<div class="col">
-							<input type="email" class="form-control" name="email_agen" placeholder="Email Agen">
+							<label for="email_agen" class="form-label">Email Agen</label>
+							<input type="email" class="form-control" name="email_agen">
 							<?php echo form_error('email_agen', '<div class="text-small text-danger"></div>'); ?>
 						</div>
 						<div class="col">
-							<input type="number" class="form-control" name="telpon" placeholder="Telpon Agen">
+							<label for="telpon" class="form-label">Telpon Agen</label>
+							<input type="number" class="form-control" name="telpon" id="telpon">
 							<?php echo form_error('telpon', '<div class="text-small text-danger"></div>'); ?>
 						</div>
 						<div class="mt-3">
-							<input type="text" class="form-control" name="perusahaan_pelayaran" placeholder="Perusahaan Pelayaran">
+							<label for="perusahaan_pelayaran" class="form-label">Perusahaan Pelayaran</label>
+							<input type="text" class="form-control" name="perusahaan_pelayaran" id="perusahaan_pelayaran">
 							<?php echo form_error('perusahaan_pelayaran', '<div class="text-small text-danger"></div>'); ?>
 						</div>
 						<div class="mt-3">
-							<input type="text" class="form-control" name="alamat" placeholder="Alamat">
+							<label for="alamat" class="form-label">Alamat</label>
+							<input type="text" class="form-control" name="alamat" id="alamat">
 							<?php echo form_error('alamat', '<div class="text-small text-danger"></div>'); ?>
 						</div>
 						<div class="mt-3">
-							<input type="text" class="form-control" name="nama_kapal" placeholder="Nama Kapal">
+							<label for="nama_kapal" class="form-label">Nama Kapal</label>
+							<input type="text" class="form-control" name="nama_kapal" id="nama_kapal">
 							<?php echo form_error('nama_kapal', '<div class="text-small text-danger"></div>'); ?>
 						</div>
 						<div class="mt-3">
-							<input type="text" class="form-control" name="kebangsaan" placeholder="Kebangsaan">
+							<label for="kebangsaan" class="form-label">Kebangsaan</label>
+							<input type="text" class="form-control" name="kebangsaan" id="kebangsaan">
 							<?php echo form_error('kebangsaan', '<div class="text-small text-danger"></div>'); ?>
 						</div>
 						<div class="col">
-							<input type="number" class="form-control" name="gt" placeholder="GT (Gross Tonnage)">
+							<label for="gt" class="form-label">GT (Gross Tonnage)</label>
+							<input type="number" class="form-control" name="gt" id="gt">
 							<?php echo form_error('gt', '<div class="text-small text-danger"></div>'); ?>
 						</div>
 						<div class="col">
-							<input type="date" class="form-control" name="lp" placeholder="Last Port">
+							<label for="lp" class="form-label">Tanggal Masuk</label>
+							<input type="date" class="form-control" name="lp" id="lp">
 							<?php echo form_error('lp', '<div class="text-small text-danger"></div>'); ?>
 						</div>
 						<div class="col">
-							<input type="date" class="form-control" name="np" placeholder="Next Port">
+							<label for="np" class="form-label">Tanggal Keluar</label>
+							<input type="date" class="form-control" name="np" id="np">
 							<?php echo form_error('np', '<div class="text-small text-danger"></div>'); ?>
 						</div>
 						<div class="mt-3">
-							<input type="text" class="form-control" name="jenis_pelayaran" placeholder="Jenis Pelayaran">
+							<label for="jenis_pelayaran" class="form-label">Jenis Pelayaran</label>
+							<input type="text" class="form-control" name="jenis_pelayaran" id="jenis_pelayaran">
 							<?php echo form_error('jenis_pelayaran', '<div class="text-small text-danger"></div>'); ?>
 						</div>
 						<div class="mt-5">

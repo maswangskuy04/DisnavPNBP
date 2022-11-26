@@ -44,23 +44,23 @@
 	<div class="container mt-5 justify-content-center d-flex mb-5">
 		<div class="card p-5 col-lg-8 cust">
 			<div class="card-body text-light">
-				<h1 class="text-center mb-5 text-light">Form Payment</h1>
+				<h1 class="text-center mb-5 text-light">Form Pembayaran</h1>
 				<div class="mb-3">
 					<label for="exampleFormControlInput1" class="form-label">Biaya Masuk</label>
-					<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+					<input type="number" class="form-control" id="exampleFormControlInput1">
 				</div>
 				<div class="mb-3">
 					<label for="exampleFormControlInput1" class="form-label">Jumlah Bayar</label>
-					<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+					<input type="number" class="form-control" id="exampleFormControlInput1">
 				</div>
 
 				<div class="mb-3">
 					<label for="pm" class="form-label">Metode Pembayaran</label>
 					<select class="form-select" aria-label="Disabled select example" id="pm">
 						<option selected>-- Pilih --</option>
-						<option value="1">One</option>
-						<option value="2">Two</option>
-						<option value="3">Three</option>
+						<option value="1">Tas</option>
+						<option value="2">Tes</option>
+						<option value="3">Tos</option>
 					</select>
 				</div>
 			</div>
